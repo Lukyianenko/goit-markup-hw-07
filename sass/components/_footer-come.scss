@@ -1,0 +1,61 @@
+.come {
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+    padding: 0 0;
+    }
+
+.come {
+    .link {
+display: block;
+color: $heder-bg-color;
+width: 44px;
+height: 44px;
+padding: 12px 12px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+
+transition: background-color 250ms $timing-function;
+    }
+}
+
+.come {
+    .icon {
+    fill: currentColor;
+    }
+}
+
+.come {
+    .list {
+    justify-content: space-between;
+    }
+}
+
+.foot-conte {
+    display: flex;
+    }
+
+.come {
+    .list {
+    display: flex;
+    padding: 0 0;
+    }
+}
+
+.come {
+    .link:hover,
+    .link:focus {
+        background-color: $accent-color;
+        color: $heder-bg-color;
+        }
+}
+
+.come {
+    .icon:hover {
+    fill: currentColor;
+    }
+}
+
+.foot-conte {
+    align-items: baseline;
+}
