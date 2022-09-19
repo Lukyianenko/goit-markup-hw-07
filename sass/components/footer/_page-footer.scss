@@ -4,14 +4,14 @@
      background-color: $primery-bg-color;
 }
 
-.footers {
+.logo-footer {
     display: block;
     margin-bottom: 20px;
     color: #FFFFFF;
 }
 
 .page-footer {
-    .text {
+    &__text {
     margin-top: 0;
      margin-bottom: 9px;
      color: #FFFFFF;
@@ -22,8 +22,8 @@
     }
  }
 
- .page-footer {
-    .link {
+ .adress-list {
+    &__link {
     color: rgba(255, 255, 255, 0.6);;
  font-style: normal;
  font-size: 14px;
@@ -34,27 +34,27 @@
     }
 }
 
-.page-footer {
-    .item {
+.adress-list {
+    &__item {
     margin-bottom: 9px;
     }
 }
 
-.page-footer {
-    .item:last-child {
+.adress-list {
+    &__item:last-child {
     margin-bottom: 0px;
     }
 }
 
-.page-footer {
-    .link:hover,
-    .link:focus {
+.adress-list {
+    &__link:hover,
+    &__link:focus {
     color: $accent-color;
     }
 }
 
-.page-footer {
-    .title {
+.footer-come {
+    &__title {
     margin-top: 0;
     margin-bottom: 20px;
     font-weight: 700;

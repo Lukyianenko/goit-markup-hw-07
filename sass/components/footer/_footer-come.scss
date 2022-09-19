@@ -1,12 +1,12 @@
-.come {
+.footer-come {
     width: 206px;
     height: 80px;
     margin-left: 70px;
     padding: 0 0;
     }
 
-.come {
-    .link {
+.footer-come {
+    &__link {
 display: block;
 color: $heder-bg-color;
 width: 44px;
@@ -19,14 +19,14 @@ transition: background-color 250ms $timing-function;
     }
 }
 
-.come {
-    .icon {
+.footer-come {
+    &__icon {
     fill: currentColor;
     }
 }
 
-.come {
-    .list {
+.footer-come {
+    &__list {
     justify-content: space-between;
     }
 }
@@ -35,23 +35,23 @@ transition: background-color 250ms $timing-function;
     display: flex;
     }
 
-.come {
-    .list {
+.footer-come {
+    &__list {
     display: flex;
     padding: 0 0;
     }
 }
 
-.come {
-    .link:hover,
-    .link:focus {
+.footer-come {
+    &__link:hover,
+    &__link:focus {
         background-color: $accent-color;
         color: $heder-bg-color;
         }
 }
 
-.come {
-    .icon:hover {
+.footer-come {
+    &__icon:hover {
     fill: currentColor;
     }
 }
