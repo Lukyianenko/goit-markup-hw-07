@@ -13,12 +13,13 @@
     }
 
     .site-nav {
-        .item + .item {
+        &__item + &__item {
         margin-left: 50px;
         }
     }
 
-    .site-nav .link {
+    .site-nav {
+        &__link {
         position: relative;
         display: block;
         padding-top: 32px;
@@ -32,17 +33,18 @@
         text-decoration: none;
     
         transition: color 250ms $timing-function;
+        }
     }   
 
     .site-nav  {
-        .link:hover,
-        .link:focus {
+        &__link:hover,
+        &__link:focus {
         color: $accent-color;
         }
     }
 
     .site-nav {
-        .link.current
+        &__link.current
         {
             color: $accent-color;
         }
@@ -66,7 +68,7 @@
     }
     
     .auth-nav {
-        .icon 
+        &__icon 
         {
             display: block;
             fill: currentColor;
@@ -75,21 +77,21 @@
         }
    
 .auth-nav  {
-    .icon:hover,
-    .icon:focus
+    &__icon:hover,
+    &__icon:focus
     {
         fill: $accent-color;
     }
 }
 
 .auth-nav {
-    .item + .item {
+    &__item + &__item {
     margin-left: 50px;
     }
 }
 
 .auth-nav {
-    .link {
+    &__link {
     display: flex;
     color: $paragraph-text-color;
     padding-top: 32px;
@@ -107,8 +109,8 @@
 }
 
 .auth-nav {
-    .link:hover,
-    .link:focus {
+    &__link:hover,
+    &__link:focus {
     color: $accent-color;
     }
 }
