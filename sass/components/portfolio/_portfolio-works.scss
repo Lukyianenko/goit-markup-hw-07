@@ -4,7 +4,7 @@
 }
 
 .portfolio-works {
-    .link {
+    &__link {
     display: block;
     text-decoration: none;
     color: inherit;
@@ -41,15 +41,14 @@
     }
 }
 
-.conte {
+.portfolio-works__conte {
     padding: 24px 20px;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
 }
 
-.portfolio-works {
-    .title {
+.portfolio-works__title {
     margin-bottom: 4px;
     margin-top: 0;
 
@@ -57,16 +56,15 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    }
 }
 
-.portfolio-works {
-    .text {
+
+.portfolio-works__text {
     color: $paragraph-text-color;
     margin-bottom: 0;
     margin-top: 0;
 
     line-height: 1.88;
-    }
 }
+
 
