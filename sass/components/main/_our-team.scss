@@ -2,19 +2,19 @@
     background-color: $section-two-color;
 }
 
-.team-list {
+.team__list {
     display: flex;
     justify-content: space-between;
 }
 
-.team-item {
+.team__item {
     text-align: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-list {
-    .title {
+.team {
+    &__title {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
@@ -23,8 +23,8 @@
     }
 }
 
-.team-list {
-    .text {
+.team {
+    &__text {
     margin-top: 10px;
     margin-bottom: 16px;
     color: $paragraph-text-color;
@@ -38,7 +38,7 @@
 }
 
 .team-icons {
-    .link {
+    &__link {
     display: block;
     color: $clients-color;
     width: 44px;
@@ -51,27 +51,27 @@
 }
 
 .team-icons {
-    .icon {
+    &__icon {
     fill: currentColor;
     }
 }
 
 .team-icons {
-    .link:hover,
-    .link:focus {
+    &__link:hover,
+    &__link:focus {
     background-color: $accent-color;
     color: $heder-bg-color;
     }
 }
 
 .team-icons {
-    .icon:hover,
-    .icon:focus {
+    &__icon:hover,
+    &__icon:focus {
     fill: currentColor;
     }
 }
 
-.conte-one {
+.team__conte {
     width: 270px;
     padding-bottom: 30px;
     padding-top: 30px;
